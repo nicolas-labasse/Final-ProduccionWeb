@@ -1,0 +1,214 @@
+.fo {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.datos {
+    font-size: 12px;
+}
+
+.pro {
+    color: #050505;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.fondo {
+    width: 100%;
+    aspect-ratio: 65/25;
+    object-fit: cover;
+}
+
+.bg-pag {
+    background-color: #140220;
+}
+
+.bg-pag2 {
+    background-color: #0c0014;
+}
+
+.bg-login {
+    background-color: #e9ecef;
+}
+
+.fondocon {
+    background-image:
+        linear-gradient(45deg, rgba(8, 8, 8, 0.692), rgba(78, 78, 78, 0.733)),
+        url(../imagenes/4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.fondolog {
+    background-image: url(../imagenes/3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.bor {
+    border: 0px;
+    border-radius: 0px;
+}
+
+.video {
+    width: 100%;
+    aspect-ratio: 180/25;
+    object-fit: cover;
+}
+
+
+
+.text-violeta {
+    color: #521878;
+}
+
+.text-blanco {
+    color: #ffffff;
+}
+
+
+.row-wrapper {
+    max-width: 80%;
+}
+
+.DEBUG {
+    border: 1px solid red;
+}
+
+.noStyle {
+    text-decoration: none;
+}
+
+.noBorder {
+    border: none;
+}
+
+.centrar-background {
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .5);
+    transition: transform .3s ease-in-out;
+    width: 100%;
+    height: 100vh;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+}
+
+.box img {
+    width: 25vw;
+    max-height: 60vh;
+}
+
+.close {
+    position: absolute;
+    display: block;
+    top: 40px;
+    right: 60px;
+    background: #851919;
+    color: #fff;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.next {
+    display: block;
+    background: #851919;
+    color: #fff;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.hrderecha {
+    margin-left: 50%;
+}
+
+.but {
+    margin-left: 80%;
+}
+
+.centro {
+    text-align: center;
+}
+
+
+/* HOVERS */
+
+.redes:hover {
+    color: rgba(255, 255, 255, 0.26);
+}
+
+.fo:hover {
+    color: rgba(255, 255, 255, 0.26);
+}
+
+.pro:hover {
+    color: rgba(10, 10, 10, 0.349);
+}
+
+.flotar:hover {
+    scale: 1.07;
+    transition: all 0.1s ease-in-out;
+}
+
+.sombrear:hover {
+    box-shadow: 0px 0px 15px 2px #757575;
+    transition: all 0.1s ease-in-out;
+}
+
+.flotar {
+    scale: 1;
+    transition: all 0.1s ease-in-out;
+}
+
+.sombrear {
+    box-shadow: none;
+    transition: all 0.1s ease-in-out;
+}
+
+.tab-content {
+    width: 85%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: red;
+}
+
+.galeria>a {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+
+}
+
+.box:target {
+    transform: scale(1);
+}
+
+
+.galeria a:hover img {
+    filter: blur(2px);
+
+}
